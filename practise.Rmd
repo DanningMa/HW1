@@ -1,0 +1,20 @@
+```{r}
+#Q1
+matrix1 <- matrix(c(7,2,9,4,12,13),nrow=2,ncol=3)
+matrix2 <- matrix(c(1,2,3,7,8,9,12,13,14,19,20,21),nrow=3,ncol=4)
+matrix1
+matrix2
+#result matix
+matrix1%*%matrix2
+```
+
+```{r}
+#Q2
+#a.
+Data_Frame<-data.frame(
+  id = c(1,2,3,4,5),
+  name = c("Peter","Amy","Ryan","Gary","Michelle"),
+  salary = c(623.30,515.20,611.00,729.00,843.25)
+)
+Data_Frame
+```
